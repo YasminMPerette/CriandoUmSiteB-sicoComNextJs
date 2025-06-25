@@ -1,7 +1,8 @@
 export default function Footer() {
     return (
-      <footer style={{ background: '#eee', padding: '1rem', textAlign: 'center' }}>
-        <p>&copy; 2025 - Meu Site com Next.js</p>
+      <footer>
+        <p>&copy; {new Date().getFullYear()} Corinthians. Todos os direitos reservados.</p>
       </footer>
-    );
+    )
   }
+  

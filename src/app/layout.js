@@ -1,11 +1,11 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import '../styles/globals.css';
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import '../styles/globals.css'
 
 export const metadata = {
-  title: 'Meu Site Next.js',
-  description: 'Site com App Router',
-};
+  title: 'Corinthians',
+  description: 'Site dedicado ao Sport Club Corinthians Paulista',
+}
 
 export default function RootLayout({ children }) {
   return (
@@ -16,5 +16,5 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-  );
+  )
 }
